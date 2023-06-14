@@ -16,7 +16,7 @@ def voltajeP(R,vg):
     B=beta/2
     T=W/L
     V=VGS-Vth
-    R=Rsqt*((m*n)+(m-1))-(4*n/3)
+    R=Rsqt*((m*n)+(m-1))-(2*n/3)
     
     # Calcular Voltaje de la Resistencia
     if B*T*(V**2)*R==0:
